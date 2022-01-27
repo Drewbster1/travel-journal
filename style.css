@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box; 
+}
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: 'Dongle'; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    color: #fff;
+    gap: 0.5rem;
+    height: 55px;
+    width: 100%; 
+}
+a{
+    margin-left: 8px;
+    margin-top: 5px;
+    color: #918e9b;
+    font-size: 15px;
+}
+nav > p {
+    font-size: 22px;
+    font-weight: 400;
+}
+.card{
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 478px;
+    display: flex;
+    flex-grow: 1;
+}
+.card--image{
+    width:125px;
+    height:168px;
+    border-radius: 5px;
+     
+}
+.card--content{
+    margin-left: 19px;
+    width: 326px; 
+    display: flex;
+    flex-direction: column;
+}
+.card--location{
+    display: flex;
+    align-items: center;
+}
+.card--location > i{
+    color: red;
+}
+.location{
+    margin-left:5px;
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 25px;
+}
+.card--title,.card--dates,.card--description{
+    margin:0;
+    padding: 0;
+}
+.card--dates{
+    margin-top: 5px;   
+}
+.card--description{
+    margin-top: 3px;
+    line-height: 0.7;
+    font-weight: 300;
+}
+.card > hr{
+    position: absolute;
+    width: 478px;
+    margin-top: 190px;
+}
